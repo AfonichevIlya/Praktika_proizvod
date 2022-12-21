@@ -1,0 +1,11 @@
+.container:hover {
+  -webkit-box-shadow: 0px 2px 4px 5px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 0px 2px 4px 5px rgba(34, 60, 80, 0.2);
+  box-shadow: 0px 2px 4px 5px rgba(34, 60, 80, 0.2);
+}
+.container {
+  margin-bottom: 40px;
+}
+h5 {
+  font-family: Arial, Helvetica, sans-serif;
+}
