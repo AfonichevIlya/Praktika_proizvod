@@ -181,7 +181,7 @@ a:visited {
 }
 footer {
   background-image: linear-gradient(45deg, #121f16, #6aa082, #569b9e);
-  color: black;
+  color: rgb(255, 255, 255);
 }
 .footer_info {
   margin-left: 300px;
