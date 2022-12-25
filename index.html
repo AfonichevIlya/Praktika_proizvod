@@ -22,7 +22,11 @@
   </head>
   <body>
     <nav class="navbar navbar-expand-xxl navbar-light bg-light">
-      <div class="container-fluid">
+      <div class="container-fluid">  
+        <div class="container-audio">
+    <audio id="mp3" src="./musik/whatsapp-tone-apple meloboom.mp3"></audio>
+  <p
+  class="text10sec"></p></div>
         <a href="./index.html" class="navbar-brand" style="width: 80px;"
           ><img class="navbar-image" src="./images/logo1.png" alt="" 
         /></a> 
@@ -88,6 +92,8 @@
       
       </div>
     </nav>
+  
+
       <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -265,7 +271,9 @@
   </div>
   <!-- Copyright -->
 </footer>
-<!-- Footer -->
+<!-- Footer --> 
+ </div>
+  
 <div class="scrollup">UP
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
   <script>
@@ -285,16 +293,19 @@
       }
     });
     </script> 
-  </div>
 
 <script defer>
   function schetchik() {
     let d = new Date();
     let ddd = d.getHours() + ":" + d.getMinutes() + ":" + d.getSeconds();
     document.getElementById("bbb").innerHTML = ddd;
-  }
+    document.getElementById("mp3").play();
+
+  }    
   setInterval(schetchik,10000)
   schetchik()
 </script>
+
+
   </body>
 </html>
