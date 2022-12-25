@@ -75,4 +75,7 @@
     margin-left: 0px;
     width: 100%;
   }
+  .pe-5 {
+    display: none;
+  }
 }
