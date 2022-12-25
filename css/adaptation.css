@@ -70,3 +70,9 @@
     padding: 7px;
   }
 }
+@media screen and (max-width: 494px) {
+  .col-3 {
+    margin-left: 35px;
+    width: 100%;
+  }
+}
