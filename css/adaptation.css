@@ -84,3 +84,18 @@
     margin-left: -2px;
   }
 }
+@media screen and (max-width: 420px) {
+  .navbar-brand {
+    margin-left: -8px;
+  }
+}
+@media screen and (max-width: 408px) {
+  .navbar-brand {
+    margin-left: -9px;
+  }
+}
+@media screen and (max-width: 406px) {
+  .navbar-brand {
+    margin-left: -10px;
+  }
+}
