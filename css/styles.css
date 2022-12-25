@@ -213,3 +213,7 @@ div.scrollup:hover {
   background-color: rgb(0, 128, 79);
   transition: 0s;
 }
+.navbar-toggler {
+  background-color: transparent;
+  border: 2px solid rgb(255, 255, 255);
+}
