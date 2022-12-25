@@ -16,11 +16,7 @@
   .col-3 {
     margin-left: 80px;
   }
-  .button {
-    padding: 7px;
-  }
 }
-
 @media screen and (max-width: 1200px) {
   .carousel-caption {
     max-width: 650px;
@@ -38,31 +34,35 @@
   .btn-outline-success {
     display: none;
   }
-  .button {
-    padding: 7px;
-  }
+
   .navbar-toggler {
     margin-right: 20px;
   }
-}
-
-@media screen and (max-width: 959px) {
-  .col-3 {
-    margin-left: 45px;
+  .mt-3 {
+    margin-left: -180px;
   }
 }
 @media screen and (max-width: 576px) {
   .col-3 {
-    margin-left: 35px;
+    margin-left: 30px;
   }
   .button {
     margin-top: 15px;
     margin-bottom: 10px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .col-3 {
+    margin-left: 50px;
+  }
+  .button {
     padding: 7px;
   }
 }
-
 @media screen and (max-width: 767px) {
+  .mt-3 {
+    margin-left: -260px;
+  }
   .button {
     padding: 7px;
   }
